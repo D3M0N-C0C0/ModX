@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ModX</title>
-<link rel="icon" href="ChromeHeart.ico" type="image/x-icon">
-<link rel="icon" href="favicon.png" type="image/png">
+<link rel="icon" href="Media/ChromeHeart.ico" type="image/x-icon">
+<link rel="icon" href="Media/favicon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&display=swap" rel="stylesheet">
 <style>
@@ -308,7 +308,7 @@ const experts=[
 function build(id,arr){
   document.getElementById(id).innerHTML=arr.map(a=>`
   <article class="card reveal">
-    <div class="ico">${a.img ? `<img src="${a.img}" alt="">` : a.i}</div>
+    <div class="ico">${a.img ? `<img src="Media/${a.img}" alt="">` : a.i}</div>
     <h3>${a.n}</h3><p>${a.d}</p>
     <a class="btn dl" href="${a.l}" target="_blank" data-label="Download" >Download</a>
     <a class="btn ghost" href="${a.t}" target="_blank" rel="noopener">Tutorial</a>
