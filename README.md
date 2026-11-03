@@ -24,4 +24,4 @@ Community
 [Join the discord here](https://discord.gg/tvyRMZzQAP)
 
 Support
-Leave a ⭐ if you like the project!
+.Leave a ⭐ if you like the project!
